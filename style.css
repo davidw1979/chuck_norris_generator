@@ -1,0 +1,29 @@
+body {
+    background-image: url(chuck-norris.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+#generate-btn {
+    width: 200px;
+    background-color: white;
+}
+
+#generate-btn:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+#quote
+{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 16px;
+    max-width: 600px;
+    margin: 60px 24px;
+    visibility: hidden;
+}
+
